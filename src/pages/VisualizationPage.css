@@ -1,0 +1,30 @@
+/*sets background for map page*/
+.visualization-container {
+    background-image: url('../assets/images/map.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full page height */
+    width: 100%;
+}
+
+/* VisualizationPage.css */
+.map-container {
+    position: relative; /* Position relative for absolute positioning of clickable area */
+    display: inline-block; /* Keep the map image inline */
+}
+
+.map-image {
+    width: 100%; /* Make the image responsive */
+}
+
+.clickable-area {
+    position: absolute; /* Position absolute to overlay on the image */
+    top: 44px; /* Adjust based on your image */
+    left: 34px; /* Adjust based on your image */
+    width: 236px; /* Adjust to the size of the clickable area */
+    height: 306px; /* Adjust to the size of the clickable area */
+    cursor: pointer; /* Changes the mouse pointer to a pointer */
+    background: rgba(255, 255, 255, 0); /* Transparent background for the clickable area */
+}
+

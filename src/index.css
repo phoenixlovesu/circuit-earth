@@ -1,13 +1,23 @@
+
+
+/* Reset default body styles */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Orbitron', sans-serif; /* Use Orbitron font globally */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(black 45%, purple 100%); /* Apply background gradient */
+}
+
+/* Remove default button styling */
+button {
+  background: transparent; /* Ensure buttons have no default background */
+  border: none; /* Remove default border */
+  padding: 0; /* Reset padding */
+  cursor: pointer; /* Ensure pointer cursor on buttons */
+  outline: none; /* Remove focus outline */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
